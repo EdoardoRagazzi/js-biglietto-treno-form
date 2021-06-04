@@ -1,3 +1,14 @@
 *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-familY: 'Roboto Mono', monospace;
+}
+body{
     background-color: brown;
+}
+.container{
+    background-color: white;
+   
+   
 }
