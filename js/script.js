@@ -4,8 +4,8 @@ var submit = document.getElementById('submit');
 submit.addEventListener("click", function () {
 
     // Take the name 
-    var value = document.getElementById('name').value;
-    console.log(value);
+    var name = document.getElementById('name').value;
+    console.log(name);
     // Take the Km 
     var km = document.getElementById('km').value;
     console.log(km);
@@ -16,8 +16,11 @@ submit.addEventListener("click", function () {
     var cab = Math.floor(Math.random() * 10) + 1;
     var cod = Math.floor(Math.random() * 1000) + 1;
     var price = km * 0.5;
+
     // OUTPUT
+    document.getElementById('nome').innerHTML = name;
+    document.getElementById('sconto').innerHTML = rangeAge;
     document.getElementById('cab').innerHTML = cab;
     document.getElementById('cod').innerHTML = cod;
-    document.getElementById('price').innerHTML = price;
+    document.getElementById('price').innerHTML = price + '$';
 });
