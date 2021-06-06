@@ -13,8 +13,8 @@ submit.addEventListener("click", function () {
     var rangeAge = document.getElementById('range-age').value;
     console.log(rangeAge);
 
-    var cab = Math.floor(Math.random() * 10) + 1;
-    var cod = Math.floor(Math.random() * 1000) + 1;
+    var cab = Math.floor(Math.random() * 8) + 1;
+    var cod = Math.floor(Math.random() * 10001) + 90000;
     var price = km * 0.5;
 
     // OUTPUT
@@ -23,6 +23,10 @@ submit.addEventListener("click", function () {
     document.getElementById('cab').innerHTML = cab;
     document.getElementById('cod').innerHTML = cod;
     document.getElementById('price').innerHTML = price + '$';
+    if (km === "") {
+        alert('INSERT KM 🙌 ');
+
+    }
 });
 
 var cancel = document.getElementById('delete');
@@ -44,3 +48,7 @@ cancel.addEventListener("click", function () {
 
 
 });
+
+if (km === "") {
+    alert('KM');
+}
