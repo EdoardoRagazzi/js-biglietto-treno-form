@@ -18,7 +18,6 @@
 </head>
 
 <body>
-
     <!-- PRIMO CONTAINER / INSERIMENTO DATI -->
     <h1 class="text-center text-white pt-2 text-uppercase">Calcola il prezzo del biglietto</h1>
     <div class="container mt-5 text-center shadow-lg p-3 mb-5 bg-body rounded ">
@@ -29,7 +28,6 @@
                 <input type="text" id="name" class="rounded border-success" value="" name="nomeCognome"
                     placeholder="Name&Surname">
             </div>
-
             <div class="col mt-5">
                 <!-- LABEL CON INPUT -->
                 <label for="km">Kilometri</label>
@@ -49,7 +47,6 @@
             <div class="col mb-5">
                 <!-- BUTTONS -->
                 <button type="button" class="btn btn-success" id="submit">Submit</button>
-
                 <button type="button" class="btn btn-danger" id="delete">Delete</button>
             </div>
         </div>
@@ -62,50 +59,32 @@
                 <!-- DETTAGLI DEI PASSEGGERI -->
                 <h3 class="text-uppercase">Dettagli passeggeri</h3>
             </div>
-
         </div>
         <!-- OUTPUT DEI DATI CALCOLATI -->
         <div class="row align-items-center border border-dark mb-5 rounded">
-            <div class="col-6">
-                <div class="row">
-
-                    <div class="col-6">
-                        <h4>Nome <br> Passeggero <br></h4>
-                        <div id="nome" class="mt-5"></div>
-
-
-                    </div>
-                    <div class="col-6">
-                        <h4>Offerta <br> <br></h4>
-                        <div id="sconto" class="mt-5"></div>
-
-                    </div>
-                </div>
+            <div class="col">
+                <h4>Nome <br> Passeggero <br></h4>
+                <div id="nome" class="mt-5"></div>
             </div>
-
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-4">
-                        <h5>Carrozza</h5>
-                        <div id="cab" class="mt-5"></div>
-                    </div>
-                    <div class="col-4">
-                        <h5>Codice CP</h5>
-                        <div id="cod" class="mt-5"></div>
-                    </div>
-                    <div class="col-4">
-                        <h5>Costo Biglietto</h5>
-                        <div id="price" class="mt-5"></div>
-                    </div>
-                </div>
+            <div class="col">
+                <h4>Offerta <br> <br></h4>
+                <div id="sconto" class="mt-5"></div>
             </div>
-
-
+            <div class="col">
+                <h5>Carrozza</h5>
+                <div id="cab" class="mt-5"></div>
+            </div>
+            <div class="col">
+                <h5>Codice CP</h5>
+                <div id="cod" class="mt-5"></div>
+            </div>
+            <div class="col">
+                <h5>Costo Biglietto</h5>
+                <div id="price" class="mt-5"></div>
+            </div>
         </div>
-
     </div>
     </div>
-
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"

@@ -24,3 +24,23 @@ submit.addEventListener("click", function () {
     document.getElementById('cod').innerHTML = cod;
     document.getElementById('price').innerHTML = price + '$';
 });
+
+var cancel = document.getElementById('delete');
+cancel.addEventListener("click", function () {
+
+    // HIDDEN the value of the Output
+    var name = document.getElementById('name');
+    nome.remove();
+    document.getElementById('cab');
+    cab.remove();
+    document.getElementById('sconto');
+    sconto.remove();
+    document.getElementById('cod');
+    cod.remove();
+    document.getElementById('price');
+    price.remove();
+
+
+
+
+});
