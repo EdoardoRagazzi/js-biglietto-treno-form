@@ -39,8 +39,8 @@ cancel.addEventListener("click", function () {
     cod.remove();
     document.getElementById('price');
     price.remove();
-
-
+    //  REFRESH PAGE
+    location.reload();
 
 
 });
