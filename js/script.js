@@ -49,6 +49,3 @@ cancel.addEventListener("click", function () {
 
 });
 
-if (km === "") {
-    alert('KM');
-}
